@@ -3,6 +3,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
 
   body{
+
     font-family: 'Roboto', sans-serif;
   }
 
@@ -13,14 +14,14 @@ nav{
     width: 100%;
     display: flex;
     border-bottom: solid 2px black;
-    height: 100px;
+    height: 80px;
     align-items: center;
     background-color:#ffc017;
   
 }
 
 nav img{
-    margin-left:450px;
+    margin-left:350px;
     width: 400px;
 }
 nav ul {
@@ -33,7 +34,7 @@ nav ul {
 }
 
 nav ul li{
-    font-size: 1.3em;
+    font-size: 1em;
     margin-right: 40px;
 }
 nav button{
@@ -54,7 +55,11 @@ nav button{
 .navAnimation button{
     background-color: #1a8917;
 }
+svg{
+    margin-top: 80px;
+}
 header{
+    
     border-bottom: solid 2px black;
     background-color:#ffc017;
     display: flex;
@@ -63,10 +68,10 @@ header{
 }
 .text{
    
-    margin-left: 450px;
+    margin-left: 350px;
 }
 .text h1{
-    margin-top: 100px;
+    margin-top: 150px;
     font-size: 8.2em;
     font-weight: bold;
     font-family: 'Spectral', serif;
@@ -95,7 +100,7 @@ header{
     font-size: 1.2em;
     font-weight: bold;
     margin-top: 40px;
-    margin-left: 450px;
+    margin-left: 350px;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -106,7 +111,9 @@ h3 img{
     margin-right: 20px;
 }
 .container{
-    margin-left: 450px;
+   
+    margin-left: 350px;
+    margin-right: 100px;
     display: flex;
     flex-wrap: wrap;
    
@@ -117,9 +124,11 @@ h3 img{
     display: flex;
     margin-bottom: 50px;
     margin-right: 100px;
-    max-width: 500px;
+    max-width: 800px;
 }
-
+.container .article{
+    max-width: 300px;
+}
 .number{
     color: gainsboro;
     font-size: 3em;
@@ -128,7 +137,7 @@ h3 img{
 }
 
 .article h5{
-    font-size: 1.4em;
+    font-size: 1.2em;
     display: flex;
     align-items: center;
 }
@@ -143,7 +152,7 @@ h3 img{
 }
 
 .article h4 {
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 30px;
 }
@@ -166,9 +175,10 @@ main{
     margin-top: 50px;
     position: relative;
     display: flex;
+    margin-right: 100px;
 }
 .news{
-    margin-left: 450px;
+    margin-left: 350px;
    
 }
 
@@ -177,12 +187,14 @@ main{
     
 }
 .photo img{
-    width: 250px;
+    max-width: 250px;
 }
 main .article{
     margin-bottom: 90px;
 }
-
+main .article p{
+    font-size: 0.8em;
+}
 .categories{
     width: 500px;
     margin-left: 200px;
@@ -218,12 +230,28 @@ main .article{
     font-size: 1.2em;
 }
 
-.categoriesFixed {
+ .categoriesFixed {
 
     position: fixed;
     top: 200;
-    bottom: 800px;
-    left: 1600px;
-    /* Add any other necessary styles */
-}
+    bottom: 550px;
+    left: 1200px;
+   
+} 
 
+b{
+    display: flex;
+    align-items: center;
+    background-color: rgb(236, 236, 236); 
+    margin-left: 0px;
+    max-width: 280px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 5px;    
+    border-radius: 50px;
+    margin-top: 5px;
+}
+.article img[alt="bookmark"] {
+    margin-left: auto;
+    margin-right: 20px;
+  }
