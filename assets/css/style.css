@@ -127,7 +127,7 @@ h3 img{
     max-width: 800px;
 }
 .container .article{
-    max-width: 300px;
+    width: 300px;
 }
 .number{
     color: gainsboro;
@@ -137,7 +137,7 @@ h3 img{
 }
 
 .article h5{
-    font-size: 1.2em;
+    font-size: 0.9em;
     display: flex;
     align-items: center;
 }
@@ -152,9 +152,10 @@ h3 img{
 }
 
 .article h4 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: bold;
     margin-bottom: 30px;
+    width: 400px;
 }
 .article p{
     display: flex;
@@ -188,12 +189,14 @@ main{
 }
 .photo img{
     max-width: 250px;
+    margin-left: 40px;
 }
 main .article{
     margin-bottom: 90px;
 }
 main .article p{
     font-size: 0.8em;
+    
 }
 .categories{
     width: 500px;
@@ -229,13 +232,23 @@ main .article p{
     margin-top: 10px;
     font-size: 1.2em;
 }
+ ul li:hover{
+    cursor: pointer;
+ }
 
+  button:hover{
+    cursor: pointer;
+ }
+ .discoverd{
+    position: relative;
+ }
  .categoriesFixed {
 
     position: fixed;
     top: 200;
     bottom: 550px;
-    left: 1200px;
+   
+
    
 } 
 
@@ -243,7 +256,7 @@ b{
     display: flex;
     align-items: center;
     background-color: rgb(236, 236, 236); 
-    margin-left: 0px;
+    margin-left: 10px;
     max-width: 280px;
     height: 40px;
     padding-left: 10px;
@@ -253,5 +266,5 @@ b{
 }
 .article img[alt="bookmark"] {
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: 10px;
   }

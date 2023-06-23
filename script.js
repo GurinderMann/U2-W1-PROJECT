@@ -14,10 +14,11 @@ document.addEventListener('scroll', function (e) {
 
 document.addEventListener('scroll', function (e){
    
-    if (window.scrollY > 1220) {
+    if (window.scrollY > 970) {
         aside.classList.add('categoriesFixed')
       }
       else(
         aside.classList.remove('categoriesFixed')
       )
     })
+
